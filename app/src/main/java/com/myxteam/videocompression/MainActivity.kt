@@ -8,7 +8,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
 //        setContentView(R.layout.activity_main)
 
-        //User
+        //Use
         VideoCompression(this,"", object : CompressionListener {
             override fun onSuccess(path: String) {
                 TODO("Not yet implemented")
