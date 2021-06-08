@@ -19,7 +19,7 @@ Step 2. Add the dependency
 Step 3. Use
 
   ```
-  VideoCompression(this,"", object : CompressionListener {
+  VideoCompression(this, videoPath, object : CompressionListener {
             override fun onSuccess(path: String) {
                 TODO("Not yet implemented")
             }
@@ -32,5 +32,5 @@ Step 3. Use
                 TODO("Not yet implemented")
             }
 
-        }).compress()
+   }).compress()
 ```
